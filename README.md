@@ -9,7 +9,7 @@ Implementação de API agendamento de tarefas para Vaga dev
 4. Copiar  o `.env.example` cria um arquivo `.env` e editar as credenciais do banco
 5. Editar o nome do banco para - ` agendamento_tarefas`
 6. Executar o comando - `php artisan key:generate`
-7. Executa o comando `php artisan migrate:refresh` para criar as tabelas do banco
+7. Executa o comando `php artisan migrate:fresh` para criar as tabelas do banco
 8. Executar o comando `php artisan storage:link`
 9. Executa o comando para rodar o projeto `php artisan serve`
 
